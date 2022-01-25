@@ -1,0 +1,169 @@
+
+/* all main  CSS work Start */
+
+body {
+	background: #ddd;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face { 
+    font-family: 'digital';
+    src: url('./fonts/digital-7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+/* all main  CSS Wrok End */
+
+
+
+
+#time_out {
+    font-size: 70px;
+    font-weight: 700 !important;
+    font-family: digital;
+}
+
+.fiverr_output table.table {
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.fiverr_output thead {
+    font-size: 20px;
+    font-family: roboto;
+    text-transform: uppercase;
+}
+.fiverr_output thead th {
+    width: 25% !important;
+}
+
+#time_out td {
+    position: relative;
+}
+span.ti_dot {
+    position: absolute;
+    right: -5%;
+}
+
+.age_output table th {
+    width: 120px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: roboto;
+}
+.age_output {
+    padding: 0 20px;
+    border: 15px double #34910c;
+}
+/* prodact css work */
+
+.prodcuct_out img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+}
+.p-title {
+	font-size: 15px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.p_price_out {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.cart_btn.btn {
+	font-size: 12px;
+	padding: 3px 10px;
+}
+
+.love_icons {
+	background: #f000;
+	border: 0;
+	color: #e63e20;
+}
+
+#love_icon2 {
+	display: none;
+}
+
+.cartbtun-sec {
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	border-bottom: 0;
+	text-align: center;
+	display: inline-block;
+	padding: 0 10%;
+    margin: 0 10px;
+}
+
+.add-to-cardf {
+	border-top: 1px solid #bbb;
+	padding-top: 6px;
+	text-align: center;
+}
+
+.p_item .card {
+	height: 265px !important;
+}
+
+button:focus {
+	outline: 0 !important;
+}
+
+
+/* Developer CSS work */
+
+#d_add_form hr {
+	margin: 6px 0;
+}
+
+.deves_out img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+}
+
+.d_name {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.deves_out .card {
+	height: 460px !important;
+}
+.deve_remove {
+	position: absolute;
+	cursor: pointer;
+}
+
+.alert-dismissible {
+	padding: 0 1% !important;
+}
+
+#rimove_deve_form {
+	font-size: 21px;
+	text-align: right !important;
+	display: block;
+	cursor: pointer;
+}
+.p_form_remove {
+	font-size: 21px;
+	text-align: right !important;
+	display: block;
+	cursor: pointer;
+}
+
+.deves_section{
+	display: none;
+}
+.p_form_section{
+	display: none;
+}

@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="slyle.css">
+
+    <title>Assignment Class 14</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="fiverr_cont">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <div class="fiverr_sec">
+                                <div class="fiverr_input">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h2 class="title alert-success text-center p-2 mb-2 rounded shadow text-uppercase">Fiver Order Counter</h2>
+                                            <hr>
+                                            <form action="#" class="form-inline d-flex justify-content-center">
+                                                <div class="form-group">
+                                                    <input id="input_date" class="form-control" type="date">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input id="input_time"  type="time" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input id="oder_btn" class="btn btn-success" type="submit" value="Create an Order">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fiverr_output">
+                                    <table class="table  text-center">
+                                      <thead class="">
+                                        <tr>
+                                          <th scope="col">Day</th>
+                                          <th scope="col">Hour</th>
+                                          <th scope="col">Minutes</th>
+                                          <th scope="col">Seconds</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr id="time_out">
+                                          <td><span id="day_out">00</span><span class="ti_dot">:</span></td>
+                                          <td><span id="hour_out">00</span><span class="ti_dot">:</span></td>
+                                          <td><span id="min_out">00</span><span class="ti_dot">:</span></td>
+                                          <td><span id="Sec_out">00</span></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="age_cont">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <div class="age_sec">
+
+                                <div class="age_input">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h2 class="title alert-success text-center p-2 mb-2 rounded shadow text-uppercase">Age Calculator</h2>
+                                            <hr>
+                                            <form action="#" class="justify-content-center d-flex">
+                                                <div class="form-group m-3">
+                                                    <label for="bath_date">Date of Birth</label>
+                                                    <input id="bath_date" class="form-control" type="date">
+                                                </div>
+                                                <div class="form-group m-3">
+                                                    <label for="a_on_d">Age on Date</label>
+                                                    <input id="a_on_d"  type="date" class="form-control">
+                                                </div>
+
+                                            </form>
+                                                <div class="">
+                                                        <input id="age_btn" class="btn btn-success form-control" type="submit" value="Calculate">
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="age_output bg-white">
+                                    <table class="table  text-left">
+                                      <tbody>
+                                        <tr id="age_year">
+                                          <th>Years</th>
+                                          <td>:</td>
+                                        </tr>
+                                        <tr id="age_manth">
+                                          <th>months</th>
+                                          <td>:</td>
+                                        </tr>
+                                        <tr id="age_week">
+                                          <th>weekS</th>
+                                          <td>:</td>
+                                        </tr>
+                                        <tr id="age_day">
+                                            <th>days</th>
+                                            <td>:</td>
+                                          </tr>
+                                        <tr id="age_hour">
+                                          <th>hours</th>
+                                          <td>:</td>
+                                        </tr>
+                                        <tr id="age_min">
+                                          <th>minutes</th>
+                                          <td>:</td>
+                                        </tr>
+                                        <tr id="age_sic">
+                                          <th>seconds</th>
+                                          <td>:</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="sec_title title alert-success text-center p-2 mb-2 rounded shadow text-uppercase">Product with LS</h2>
+          <div class="product_cont">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="prodcuct_add">
+                  <div class="card">
+                    <div class="card-body">
+
+                      <div class="p_sec_btndiv">
+                          <button id="p_sec_btn" class="btn btn-primary btn-block">Add New Product</button>
+                      </div>
+
+                      <div class="p_form_section">
+                        <span class="p_form_remove">&times;</span>
+                        <form id="p_add_form" class="p_form mt-2" action="#">
+                          <label class="text-center d-block alart alert-success p-3">Product About</label>
+                          <div class="form-group my-2">
+                            <input class="form-control" name="p_name" type="text" placeholder="Product Name">
+                          </div>
+                          <label class="w-100" for="">Product Price</label>
+                          <div class="form-group my-2 d-flex">
+                            <input class="form-control mr-1 " name="P_price" type="text" placeholder="Price">
+                            <input class="form-control ml-1 " name="P_sl_price" type="text" placeholder="Sale Price">
+
+                          </div>
+
+                          <div class="form-group my-2">
+                            <input class="form-control" name="P_image" type="url" placeholder="Product Image link">
+                          </div>
+                          <div class="form-group my-2">
+                            <input class="btn btn-success btn-block" type="submit" value="ADD Product"">
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="prodcuct_out">
+                  <div id="p_out" class="row ">
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="sec_title title alert-success text-center p-2 mb-2 rounded shadow text-uppercase">Team member with LS</h2>
+          <div class="deves_cont">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="deves_add">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="add_deve_btn">
+                        <button id="d_sec_btn" class="btn btn-primary btn-block">Add New Developer</button>
+                      </div>
+                      <div class="deves_section">
+
+                      <form id="deve_form" class="deves_form mt-2" >
+                        <span id="rimove_deve_form">&times;</span>
+                        <label class="text-center d-block alert alert-success">Developer About</label>
+                        <div class="form-group my-2">
+                          <input class="form-control" name="deves_name" type="text" placeholder="Developer Name">
+                        </div>
+
+                        <div class="form-group my-2">
+
+                          <label class="">Gender</label>
+                          <hr>
+                          <input type="radio" id="Male" name="Gender" value="Male">
+                          <label class="mr-2" for="Male"> Male </label>
+                          <input type="radio" id="Female" name="Gender" value="Female">
+                          <label for="Female">Female</label>
+                          
+                        </div>
+
+                        <div class="form-group my-2">
+
+                          <label class="">Skills</label>
+                          <hr>
+                          <input type="checkbox" id="java" name="skill" value="JavaScript">
+                          <label for="java"> JavaScript </label><br>
+                          <input type="checkbox" id="vehicle2" name="skill" value="PHP">
+                          <label for="vehicle2"> PHP </label><br>
+                          <input type="checkbox" id="vehicle3" name="skill" value="Laravel">
+                          <label for="vehicle3"> Laravel </label><br>
+                          <input type="checkbox" id="vehicle4" name="skill" value="Python">
+                          <label for="vehicle4"> Python </label><br>
+                          
+                        </div>
+
+                        <div class="form-group my-2">
+                          <input class="form-control" name="d_image" type="url" placeholder="Deve Image link">
+                        </div>
+                      </form>
+                      <button id="deves_btn" class="btn btn-success btn-block">ADD Deves</button>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="deves_out">
+                  <div id="d_out" class="row ">
+
+                    
+               
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="Js/fiverr.js"></script>
+    <script src="Js/age_cal.js"></script>
+    <script src="Js/function.js"></script>
+    <script src="Js/product.js"></script>
+    <script src="Js/deves.js"></script>
+
+
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>
