@@ -84,7 +84,7 @@ function deveDom(){
                 <img src="${data.dImage}" alt="" class="d_imag card-img">
                     <div class="card-body">
                         <h2 class="d_name">Name : <span>${data.dName}</span></h2>
-                        <h6 id="gender" class="alart alert-primary"">Gender : <SPan>${data.gender}</SPan></h6>
+                        <h6 id="gender" class="alart alert-primary">Gender : <SPan>${data.gender}</SPan></h6>
                         <h6 id="gender">Skills</h6>
                         <hr>
                         <ul class="list-group">
