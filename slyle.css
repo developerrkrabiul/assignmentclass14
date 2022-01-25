@@ -134,10 +134,11 @@ button:focus {
 .d_name {
 	font-size: 18px;
 	font-weight: 600;
+	text-transform: capitalize;
 }
 
 .deves_out .card {
-	height: 530px !important;
+	height: 560px !important;
 }
 .deve_remove {
 	position: absolute;
